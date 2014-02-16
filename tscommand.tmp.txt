@@ -1,0 +1,1 @@
+"D:\REPOS\video-angularjs-typescript-services\typescript\reference.ts" --sourcemap --removeComments --target ES5 --module amd --out app/out.js

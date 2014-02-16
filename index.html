@@ -5,20 +5,15 @@
 
     <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.css">
 
-    <!--Scripts-->    
-    <script src="vendor/jquery-1.9.1.min.js"></script>
+    <!--Scripts-->
+    <script src="vendor/jquery.js"></script>
     <script src="vendor/angular.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
 
-    <!--<script src="vendor/require.js" data-main="app/loader.js"></script>-->
-    <script src="app/out.js"></script>
-    
+     <script src="app/out.js"></script>
+
 </head>
-<body ng-controller="MainController">
-{{vm.message}}
-    <div ng-controller ="TestController">
-        {{vm.message}}
-    </div>
-    <testme></testme>
+<body ng-controller="mainController">
+    {{foo}}
 </body>
 </html>
